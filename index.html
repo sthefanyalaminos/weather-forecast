@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="src/css/style.css">
     <title>Weather Forecast</title>
 </head>
@@ -10,8 +11,35 @@
 <body>
     <div id="container">
         <form id="search">
-            
+            <i class="fa-solid fa-location-dot"></i>
+            <input 
+                type="search" 
+                name="city_name" 
+                id="city_name" 
+                placeholder="Buscar cidade"
+            >
+
+            <button type="submit" id="search_button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
         </form>
+
+        <div id="weather">
+            <h1 id="title">São Paulo, BR</h1>
+
+            <div id="infos">
+                <div id="temp">
+                    <img id="temp_img" src="http://openweathermap.org/img/wn/04d@2x.png" alt="Ícone do clima">
+                </div>
+            
+                <div>
+                    <p id="tem_value">
+                        25<sup>°C</sup>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
+
 </body>
 </html>
