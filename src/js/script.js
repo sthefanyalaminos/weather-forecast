@@ -4,7 +4,9 @@ document.querySelector("#search").addEventListener("submit", async (event) => {
     const cityName = document.querySelector("#city_name").value;
 
     if (!cityName) {
-        return showAlert('Por favor, digite o nome de uma cidade.');
+        document.querySelector("#weather").classList.remove('show');
+        showAlert('Por favor, digite o nome de uma cidade.');
+        return;
     }
 
     const apiKey = API_KEY;
