@@ -19,6 +19,9 @@ jobs:
           sed "s/__API_KEY__/${{ secrets.WEATHER_API_KEY }}/g" \
             src/js/config.template.js > src/js/config.js
 
+      - name: Remover .gitignore antes do deploy
+        run: rm -f .gitignore
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
