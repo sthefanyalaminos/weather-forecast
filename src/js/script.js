@@ -8,7 +8,7 @@ document.querySelector("#search").addEventListener("submit", async (event) => {
     }
 
     const apiKey = API_KEY;
-    const apiUrl = API_URL;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(cityName)}&appid=${apiKey}&units=metric&lang=pt_br`;
 
     const results = await fetch(apiUrl);
     const json = await results.json();
