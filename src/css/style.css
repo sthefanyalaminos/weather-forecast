@@ -25,16 +25,16 @@ body {
     #search{
         display: flex;
         align-items: center;
-        gap: 8px;
-        border: 1px solid #bdbdbd;
-        border-radius: 10px;
-        padding: 4px 12px;;
+        gap: 0.5rem;
+        border: 1px0.0625rem solid #bdbdbd;
+        border-radius: 0.625rem;
+        padding: 0.25rem 0.75rem;;
     }
 
         #search input {
             border: none;
             background-color: transparent;
-            font-size: 16px;
+            font-size: 1rem;
             width: 100%;
         }
 
@@ -50,7 +50,7 @@ body {
 
     #weather {
         display: none;
-        margin-top: 20px;   
+        margin-top: 1.25rem;   
     }
 
         #weather.show {
@@ -59,7 +59,7 @@ body {
 
         #weather #title {
             text-align: center;
-            margin-bottom: 5px;
+            margin-bottom: 0.3125rem;
             font-weight: 600;
             color: #372f3f;
         }
@@ -68,11 +68,11 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        gap: 20px;
+        gap: 1.25rem;
         background: linear-gradient(90deg, #5a7cdc, #606dde);
         color: #fff;
-        border-radius: 20px;
-        padding: 20px;
+        border-radius: 1.25rem;
+        padding: 1.25rem;
     }
 
         #temp_img {
@@ -81,8 +81,8 @@ body {
 
         #temp_value {
             font-weight: bold;
-            font-size: 50px;
-            line-height: 55px;
+            font-size: 3.125rem;
+            line-height: 3.4375rem;
         }
 
         #temp_description {
@@ -91,31 +91,31 @@ body {
         }
 
     #other_infos {
-        margin-top: 30px;
+        margin-top: 1.875rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 12px;
+        gap: 0.75rem;
     }
 
         #other_infos .info {
             display: flex;
             align-items: center;
             justify-content: start;
-            padding: 4px 10px;
-            border-radius: 8px;
+            padding: 0.25rem 0.625rem;
+            border-radius: 0.5rem;
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
             background-color: #fff;
             gap: 10px;
         }
 
         #other_infos .info h2 {
-            font-size: 12px;
+            font-size: 0.75rem;
             font-weight: 600;
         }
 
         #other_infos .info i {
             text-align: center;
-            font-size: 20px;
+            font-size: 1.25rem;
             width: 20%;
         }
 
@@ -142,6 +142,6 @@ body {
     }
 
         #alert img {
-            width: 200px;
-            margin-top: 20px;
+            width: 12.5rem;
+            margin-top: 1.25rem;
         }
