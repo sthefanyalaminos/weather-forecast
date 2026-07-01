@@ -1,6 +1,6 @@
 # ⛅ Weather Forecast
 
-[Translate to English]()
+[Translate to English](https://github.com/sthefanyalaminos/weather-forecast/blob/main/README_EN.md)
 
 Aplicação web de previsão do tempo, desenvolvida com **HTML**, **CSS** e **JavaScript**. O projeto consome dados de uma API de clima em tempo real e exibe as informações de forma simples e intuitiva para o usuário.
 
@@ -8,7 +8,7 @@ Aplicação web de previsão do tempo, desenvolvida com **HTML**, **CSS** e **Ja
 <a href="https://sthefanyalaminos.github.io/weather-forecast/">Clique aqui para acessar!</a>
 </div>
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div align="center">
 <img src="src/images/readme/img1.png" height="350px">
 <img src="src/images/readme/img2.png" height="350px">
 </div>
