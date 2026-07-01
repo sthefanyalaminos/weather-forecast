@@ -8,7 +8,7 @@ Aplicação web de previsão do tempo, desenvolvida com **HTML**, **CSS** e **Ja
 <a href="https://sthefanyalaminos.github.io/weather-forecast/">Clique aqui para acessar!</a>
 </div>
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
 <img src="src/images/readme/img1.png" height="350px">
 <img src="src/images/readme/img2.png" height="350px">
 </div>
