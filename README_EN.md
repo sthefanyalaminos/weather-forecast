@@ -8,7 +8,7 @@ A web-based weather forecast application built with **HTML**, **CSS**, and **Jav
 <a href="https://sthefanyalaminos.github.io/weather-forecast/">Click here to access!</a>
 </div>
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
 <img src="src/images/readme/img1.png" height="350px">
 <img src="src/images/readme/img2.png" height="350px">
 </div>
