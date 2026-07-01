@@ -1,6 +1,6 @@
 # ⛅ Weather Forecast
 
-[Traduzir para Português]()
+[Traduzir para Português](https://github.com/sthefanyalaminos/weather-forecast/blob/main/README.MD)
 
 A web-based weather forecast application built with **HTML**, **CSS**, and **JavaScript**. The project fetches real-time weather data from an API and displays it in a simple, intuitive interface.
 
@@ -8,7 +8,7 @@ A web-based weather forecast application built with **HTML**, **CSS**, and **Jav
 <a href="https://sthefanyalaminos.github.io/weather-forecast/">Click here to access!</a>
 </div>
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div align="center">
 <img src="src/images/readme/img1.png" height="350px">
 <img src="src/images/readme/img2.png" height="350px">
 </div>
